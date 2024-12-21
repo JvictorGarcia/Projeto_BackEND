@@ -1,0 +1,26 @@
+//Aluno: José Victor Garcia RA:2209543
+//Aluno: Marcos Gustavo Lara RA:1634399
+
+Autenticação:
+
+POST /auth/login: Realiza o login de um usuário e retorna um token JWT.
+Usuários:
+
+GET /users/install: Cria um usuário administrador padrão se não existir.
+POST /users/register: Registra um novo usuário comum.
+POST /users/admin: Cria um novo administrador (requer autenticação).
+PUT /users/:id: Atualiza os dados pessoais de um usuário.
+DELETE /users/:id: Exclui um usuário não administrador.
+GET /users: Lista todos os usuários (requer autenticação).
+Carros:
+
+POST /carros: Adiciona um novo carro (requer autenticação).
+GET /carros: Lista todos os carros (opcionalmente com paginação).
+PUT /carros/:id: Atualiza os dados de um carro (requer autenticação).
+DELETE /carros/:id: Exclui um carro (requer autenticação).
+Motos:
+
+POST /motos: Adiciona uma nova moto (requer autenticação).
+GET /motos: Lista todas as motos (opcionalmente com paginação).
+PUT /motos/:id: Atualiza os dados de uma moto (requer autenticação).
+DELETE /motos/:id: Exclui uma moto (requer autenticação).

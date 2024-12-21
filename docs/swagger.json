@@ -1,0 +1,45 @@
+
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "API Venda De Carros e moto",
+    "description": "API para venda de carros e motos"
+  },
+  "host": "localhost:3001",
+  "basePath": "/",
+  "schemes": ["http"],
+  "paths": {
+    "/auth/register": {
+      "post": {
+        "summary": "Registrar um novo usuário",
+        "description": "Endpoint para registrar novos usuários",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Objeto contendo informações do usuário",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "username": { "type": "string" },
+                "password": { "type": "string" },
+                "role": { "type": "string" }
+              },
+              "required": ["username", "password"]
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Usuário registrado com sucesso"
+          },
+          "400": {
+            "description": "Erro de validação ou usuário já existe"
+          }
+        }
+      }
+    }
+  }
+}

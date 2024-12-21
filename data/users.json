@@ -1,0 +1,15 @@
+[
+
+  {
+    "id": 1734652890073,
+    "username": "jorge",
+    "password": "$2b$10$lQUglg9p0j0T5gZIlxiPguRrMdu/fsx96OEOHaUhCieqKrs4hU3tq",
+    "role": "admin"
+  },
+  {
+    "id": 1734657171104,
+    "username": "sonia",
+    "password": "$2b$10$BgQIOnluOJ1DU/aSs/bg8evB37Bq/FRdNDqFL9fIxrB8d8GpwLB9G",
+    "role": "user"
+  }
+]

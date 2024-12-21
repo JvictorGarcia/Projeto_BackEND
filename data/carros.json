@@ -1,0 +1,16 @@
+
+[
+  
+  {
+    "id": 1734739295110,
+    "modelo": "opala",
+    "ano": 1975,
+    "renavam": "123456789012345",
+    "placa": "ABC-1234",
+    "cor": "azul",
+    "preco": 15000,
+    "kilometragem": 50000,
+    "proprietarioId": 1734652890073,
+    "proprietarioNome": "jorge"
+  }
+]
